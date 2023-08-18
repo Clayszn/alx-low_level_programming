@@ -1,15 +1,15 @@
-#include "main"
+#include "main.h"
 
-/** _isupper -  checks for uppercase character
- *
- * Return: 1 on sucess
- */
+/**
+* _isupper -  checks for uppercase character
+* @c: function
+* Return: 0 or 1
+*/
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	char c;
-
-	for (c = 'A' c <= 'Z' c++)
-		_putchar(c);
-	return (0);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
