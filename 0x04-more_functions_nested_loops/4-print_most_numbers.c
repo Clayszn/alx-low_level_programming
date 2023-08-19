@@ -2,7 +2,6 @@
 
 /**
 *print_most_numbers - prints
-* owned by Marvel
 *Return: void
 */
 
