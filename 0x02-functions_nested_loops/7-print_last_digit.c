@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
-  *print_last_digit - entry point of the problem
-  *@r: character variable
-  *Return: Always 0
-  */
+*print_last_digit - entry point of the problem
+*@i: character variable
+*Return: 0 Always
+*/
 
-int print_last_digit(int r)
+int print_last_digit(int i)
 {
-	if (r < 0)
+	int k;
+
+	k = i % 10;
+	if (i < 0)
 	{
-		r *= -1;
+		k = -k;
+		_putchar(k + '0');
 	}
-	_putchar((r % 10) + '0');
-	return (r % 10);
+	return (k);
 }
