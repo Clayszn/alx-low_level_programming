@@ -2,13 +2,11 @@
 
 /**
  * reset_to_98 - function that takes a pointer
- *
+ * @n: - pointer n
  * Return: 0 Always
  */
 
 void reset_to_98(int *n)
 {
-	int n = 98;
-	_putchar('n');
-	return 0;
+	*n = 98;
 }
