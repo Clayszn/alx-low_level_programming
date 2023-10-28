@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - entry
+ * main - entriy
  * Return: 0 always
  **/
 
 int main(void)
 {
-	printf("hello world\n");
+	printf("hello\n");
 	return (0);
 }
